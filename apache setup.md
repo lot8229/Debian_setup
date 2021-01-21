@@ -27,4 +27,13 @@ apache2 -v 명령어은 실행이 되지 않는다
 
 apache2clf restart 를 입력하라는데 이것또한 되지 않는다.
 
-<a src="https://starblood.tistory.com/entry/Debian-Apache-%EC%84%A4%EC%B9%98%EC%99%80-%EA%B0%9C%EC%9D%B8-home-directory-%EC%84%A4%EC%A0%95"><출처></a>
+> 오류 수정
+
+user 계정 으로 들어가서 apache 명어를 사용해야 된다. 왜그러는진 잘 모르겠따.
+
+system 명령어도 먹는다.
+
+
+
+<a src="https://starblood.tistory.com/entry/Debian-Apache-%EC%84%A4%EC%B9%98%EC%99%80-%EA%B0%9C%EC%9D%B8-home-directory-%EC%84%A4%EC%A0%95"><참고 1></a>
+<a src="https://lng1982.tistory.com/288"><참고 2></a>
