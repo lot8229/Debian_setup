@@ -45,3 +45,7 @@ ln ../mods-available/userdir.load userdir.load
  > 5. mysql(maria DB) 설치하는 방법
 https://mariadb.org/download/#mariadb-repositories 
 여기서 다알맞게 다운 후 리눅스에 적용?
+
+적용 전에 포트 3306 을 방화벽에 혀용해주는 명령어
+
+ufw allow 3306 이란 명령어가 not found 이다.
