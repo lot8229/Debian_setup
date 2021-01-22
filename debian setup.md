@@ -6,4 +6,5 @@ ftp.kaist.ac.kr
 
 vm ware 설치 후 데비안 iso 파일 넣기 
 
-vm wa
+vm ware tools 설치 
+
