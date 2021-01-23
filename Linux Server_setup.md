@@ -3,7 +3,10 @@
 - ftp.kaist.ac.kr 에서 debian 파일 설치
 - vmware 설치 
 - vmware 에 데비안 iso 파일 설치
-- 이다음 은 debiansetup.md 파일에서 
+
+DeskTop Environment 는 GUI 환경을 구성 할때만 사용하고 Server 용 Linux 에서는 사용하지 않는것을 권장한다. 
+
+GNOME 과 WEBSERVER 만 설치하여 사용중이다,
 > 2.sudoers 관련 설정
 ```
  su
@@ -16,6 +19,14 @@
 유저이름 ALL=(ALL:ALL) ALL
 ```
 을 넣어준다.
+- sudo 명령어 가 먹지 않을떄
+```
+su 
+apt update
+apt install sudo
+username -aG sudo username
+export PATH = "$PATH:/sbin:/usr/sbin:usr/local/sbin"
+```
 > 3. vmware tools 설치
 
 vmware 위의 탭바의 virtual machine --> install vmware tools
@@ -44,7 +55,22 @@ ln ../mods-available/userdir.load userdir.load
 
  > 5. mysql(maria DB) 설치하는 방법
 https://mariadb.org/download/#mariadb-repositories 
-여기서 다알맞게 다운 후 리눅스에 적용?
+여기서 알맞게 자신의 환경에 맞는 것을 선택한후에 
+
+설치전 가이드의 명령어를 따라하여 먼저 해준다.
+
+그리고 나서 
+```
+sudo apt-get install mariadb-server mariadb-client
+```
+를 리눅스에 적용시켜준다.
+
+```
+systemctl restart mysql
+systemctl start mysql
+```
+을 하여서 리눅스를 재설치 해준다,
+
 
 적용 전에 포트 3306 을 방화벽에 혀용해주는 명령어
 
