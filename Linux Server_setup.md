@@ -3,7 +3,7 @@
 - ftp.kaist.ac.kr 에서 debian 파일 설치
 - vmware 설치 
 - vmware 에 데비안 iso 파일 설치
-
+ 
 DeskTop Environment 는 GUI 환경을 구성 할때만 사용하고 Server 용 Linux 에서는 사용하지 않는것을 권장한다. 
 
 GNOME 과 WEBSERVER 만 설치하여 사용중이다,
