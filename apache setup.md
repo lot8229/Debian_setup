@@ -15,7 +15,7 @@ su
 apache2 restart
 ```
 
->오류
+>오류 
 
 apache2 restart 명령어가 실행이 안된다.
 
