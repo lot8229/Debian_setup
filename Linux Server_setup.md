@@ -75,3 +75,5 @@ systemctl start mysql
 적용 전에 포트 3306 을 방화벽에 혀용해주는 명령어
 
 ufw allow 3306 이란 명령어가 not found 이다.
+
+--> 해결 : ufw 를 설치후 다시 하면 된다.
